@@ -31,7 +31,7 @@
 "error.KAFKA_ERR" = "消息中間件錯誤";
 "error.RPC_ERR" = "rpc 調用錯誤";
 "error.SYS_ERR" = "序列化/文件操作/調用第三方服務/獲取不到系統配置等錯誤";
-"error.CACHE_ERR" = "cache失敗";
+"error.CACHE_ERR" = "快取失敗";
 "error.REQ_ERR" = "通用請求失敗";
 "error.ACCOUNT_BAN_ERR" = "帳號被封禁";
 "error.ROOM_NO_EXISTE" = "房間不存在";
@@ -59,8 +59,8 @@
 "error.FOLLOW_FAIL" = "關註失敗";
 "error.EXIST_FOLLOW" = "已經關註";
 "error.NOT_FOLLOW" = "未關註";
-"error.REPEAT_UNFOLLOW" = "重復取關";
-"error.UNFOLLOW_FAIL" = "取關失敗";
+"error.REPEAT_UNFOLLOW" = "重復取消關注";
+"error.UNFOLLOW_FAIL" = "取消關注失敗";
 "error.ROOM_MIC_USER_READY_ON" = "當前用戶已在麥上";
 "error.ROOM_MIC_APPLY_OFF" = "當前允許自由上麥，不需要申請";
 "error.ROOM_MIC_READY_HAVE_PERMISSION" = "已有上麥權限，不需要申請";
@@ -189,7 +189,7 @@
 "play.chatRoom.voiceChat" = "語聊";
 "play.chatRoom.messageForFriend" = "給朋友留言";
 "play.chatRoom.holdMic" = "抱麥";
-"play.chatRoom.enterUsersNicknameOrID" = "請輸入用戶的昵稱或ID";
+"play.chatRoom.enterUsersNicknameOrID" = "請輸入用戶的暱稱或ID";
 "play.chatRoom.holdTa" = "抱 ta";
 "play.chatRoom.sendGiftToTa" = "送給 %@ 呀";
 "play.chatRoom.message" = "消息";
@@ -206,9 +206,9 @@
 "play.chatRoom.roomOnlineUsers" = "房間在線用戶";
 "play.chatRoom.noOnlineUsers" = "沒有在線用戶 ~";
 "play.chatRoom.moreInformation" = "更多信息";
-"play.chatRoom.medalWall" = "勛章墻";
-"play.chatRoom.giftWall" = "禮物墻";
-"play.chatRoom.follow" = "關註";
+"play.chatRoom.medalWall" = "勳章牆";
+"play.chatRoom.giftWall" = "禮物牆";
+"play.chatRoom.follow" = "關注";
 "play.chatRoom.giveGifts" = "送禮";
 "play.chatRoom.directMessage" = "私聊";
 
@@ -233,9 +233,9 @@
 "social.chat.recall" = "撤回";
 "social.chat.playFaill" = "播放失敗";
 "social.chat.holdToSpeak" = "按住說話";
-"social.chat.releaseEnd" = "松開結束";
-"social.chat.looseSend" = "松手 發送";
-"social.chat.cancelSending" = "松開手指，取消發送";
+"social.chat.releaseEnd" = "鬆開結束";
+"social.chat.looseSend" = "鬆手 發送";
+"social.chat.cancelSending" = "鬆開手指，取消發送";
 "social.chat.talkingShort" = "說話時間太短";
 
 //MARK: NEWS
@@ -245,7 +245,7 @@
 
 //MARK: Mine
 
-"mine.account" = "賬戶";
+"mine.account" = "帳戶";
 "mine.wallet" = "錢包";
 "mine.assets" = "資產";
 "mine.history" = "歷史";
@@ -255,7 +255,7 @@
 "mine.extend" = "擴展";
 "mine.fans" = "粉絲";
 "mine.friends" = "好友";
-"mine.accountAssets" = "賬戶資產";
+"mine.accountAssets" = "帳戶資產";
 "mine.receive" = "接收";
 "mine.send" = "發送";
 "mine.transfer" = "劃轉";
@@ -263,7 +263,7 @@
 "mine.buy" = "購買";
 "mine.setting.title" = "系統設置";
 "mine.setting.logOut" = "退出登錄";
-"mine.setting.accountInformation" = "賬戶信息";
+"mine.setting.accountInformation" = "帳戶信息";
 "mine.setting.languageSetting" = "語言設置";
 "mine.setting.notification" = "後臺消息通知";
 "mine.setting.contactUs" = "聯系我們";
@@ -272,17 +272,17 @@
 "mine.setting.userAgreement" = "用戶協議";
 "mine.setting.updateAvatar" = "修改頭像";
 "mine.setting.updateCertificateBack" = "修改證件底板";
-"mine.setting.nickName" = "昵稱";
+"mine.setting.nickName" = "暱稱";
 "mine.setting.gender" = "性別";
 "mine.setting.birthday" = "生日";
-"mine.setting.phone" = "手機號";
+"mine.setting.phone" = "手機號碼";
 "mine.setting.email" = "郵箱";
 "mine.setting.twitter" = "推特";
 "mine.setting.facebook" = "Facebook";
-"mine.setting.updateNickName" = "修改昵稱";
-"mine.setting.nickNamePlachold" = "輸入昵稱";
+"mine.setting.updateNickName" = "修改暱稱";
+"mine.setting.nickNamePlachold" = "輸入暱稱";
 "mine.setting.nickNameTips" = "1-10個字符，支持中文，英文，數字和下劃線";
-"mine.setting.settingGender" = "設置性別";
+"mine.setting.settingGender" = "性別設置";
 "mine.setting.selectDate" = "選擇日期";
 "mine.setting.language" = "語言";
 "mine.setting.notUserInfo" = "沒有獲取到用戶信息";
