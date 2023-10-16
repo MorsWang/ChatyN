@@ -13,17 +13,17 @@
 "common.cancel" = "取消";
 "common.confirm" = "確認";
 "common.save" = "保存";
-"common.thinkAgain" = "再想想";
+"common.thinkAgain" = "再想一下";
 "common.clear" = "清除";
 "common.iknow" = "我知道了";
 "common.search" = "搜索";
 "common.updateSuccess" = "修改成功";
-"common.album" = "相冊";
+"common.album" = "相簿";
 "common.takeAPicture" = "拍照";
 "common.alert" = "提示";
 "common.update" = "更新";
 "common.tokenInvalid" = "Token 失效";
-"common.logoutSuccessfully" = "退出成功";
+"common.logoutSuccessfully" = "登出成功";
 
 //MARK: Error
 "error.invalidToken" = "token 失效，請重新登錄";
@@ -33,7 +33,7 @@
 "error.SYS_ERR" = "序列化/文件操作/調用第三方服務/獲取不到系統配置等錯誤";
 "error.CACHE_ERR" = "cache失敗";
 "error.REQ_ERR" = "通用請求失敗";
-"error.ACCOUNT_BAN_ERR" = "賬號被封禁";
+"error.ACCOUNT_BAN_ERR" = "帳號被封禁";
 "error.ROOM_NO_EXISTE" = "房間不存在";
 "error.ROOM_TYPE_EXISTE" = "已存在相同類型的房間";
 "error.ROOM_DATA_EMPTY" = "rpc獲取不到數據";
