@@ -1,0 +1,292 @@
+/* 
+  Localizable.strings
+  ChatYN
+
+  Created by 马小撂 on 2023/10/5.
+  
+*/
+
+//MARK: Common
+
+"common.minutes" = "minutes";
+"common.seconds" = "seconds";
+"common.cancel" = "Cancel";
+"common.confirm" = "Confirm";
+"common.save" = "save";
+"common.thinkAgain" = "Think again";
+"common.clear" = "clear";
+"common.iknow" = "I know";
+"common.search" = "Search";
+"common.updateSuccess" = "Modification successful";
+"common.album" = "Album";
+"common.takeAPicture" = "Take a photo";
+"common.alert" = "Prompt";
+"common.update" = "update";
+"common.tokenInvalid" = "Token Invalid";
+"common.logoutSuccessfully" = "logout Successfully";
+
+//MARK: Error
+"error.invalidToken" = "Token is invalid, please log in again";
+"error.DB_ERR" = "Processing failed, please try again later";
+"error.KAFKA_ERR" = "Message middleware error";
+"error.RPC_ERR" = "rpc call error";
+"error.SYS_ERR" = "Errors in serialization/file operations/calling third-party services/cannot obtain system configuration, etc.";
+"error.CACHE_ERR" = "cache failed";
+"error.REQ_ERR" = "General request failed";
+"error.ACCOUNT_BAN_ERR" = "Account banned";
+"error.ROOM_NO_EXISTE" = "The room does not exist";
+"error.ROOM_TYPE_EXISTE" = "A room of the same type already exists";
+"error.ROOM_DATA_EMPTY" = "rpc cannot obtain data";
+"error.GEN_TOKEN_ERR" = "RTC platform failed to generate token";
+"error.ROOM_HAD_CREATE" = "Room has been created";
+"error.ROOM_MIC_BLOCK" = "This location is already occupied";
+"error.ROOM_MIC_LOCK" = "This location has been locked, locked or occupied";
+"error.ROOM_MIC_FORBIDDEN" = "Currently no permission to access the microphone";
+"error.ROOM_CLOSE" = "The current room has been closed";
+"error.ROOM_MIC_USER_OFF" = "The current user is not on the microphone";
+"error.ROOM_NO_PERMISSION" = "Currently no operation permission";
+"error.ROOM_PWD_ERR" = "Wrong password to enter the room";
+"error.ROOM_MIC_MOVE_ERR" = "The wheat position cannot be moved currently, the owner";
+"error.ROOM_MIC_UNKNOWN_OP" = "Unknown wheat position operation";
+"error.ROOM_CREATOR_OP_ERR" = "Cannot operate on the owner";
+"error.ROOM_SET_ADMIN_ERR" = "Already an administrator";
+"error.ROOM_OP_USER_ERR" = "Cannot operate on yourself";
+"error.ROOM_READY_INVITE_MIC" = "Invitation sent";
+"error.ROOM_ADMIN_LIMIT" = "Administrators are full";
+"error.ROOM_USER_ONLINE" = "Failed to get the number of people online";
+"error.ROOM_ENTER_CD" = "Enter room cd";
+"error.GIFT_NOT_FOUND" = "Gift does not exist";
+"error.FOLLOW_FAIL" = "Following failed";
+"error.EXIST_FOLLOW" = "Already following";
+"error.NOT_FOLLOW" = "Not following";
+"error.REPEAT_UNFOLLOW" = "Repeat off";
+"error.UNFOLLOW_FAIL" = "Uninstall failed";
+"error.ROOM_MIC_USER_READY_ON" = "The current user is already on the microphone";
+"error.ROOM_MIC_APPLY_OFF" = "You are currently allowed to use the microphone freely, no application is required";
+"error.ROOM_MIC_READY_HAVE_PERMISSION" = "Already have access to microphone, no need to apply";
+"error.ROOM_FREEZE" = "Room Freeze";
+
+//MARK: Tabbar
+
+"tabbar.home" = "Home";
+"tabbar.play" = "Game";
+"tabbar.social" = "Social";
+"tabbar.news" = "information";
+"tabbar.mine" = "mine";
+
+//MARK: Login
+
+"login.continueByemail" = "Continue by email";
+"login.continueByWallet" = "Log in via wallet";
+"login.agreeServiceAndPrivacyPolicy" = "I agree with ChatyN's %1$@ and %2$@";
+"login.termsOfService" = "Terms of Service";
+"login.privacyPolicy" = "Privacy Policy";
+"login.or" = "or";
+"login.wallet" = "wallet";
+
+//MARK: Play
+
+"play.title" = "Game";
+"play.hot" = "Recommended";
+"play.chat" = "Chat";
+"play.music" = "Music";
+"play.love" = "Like";
+"play.game" = "game";
+"play.online" = "Online";
+
+//MARK: CreateRoom
+
+"play.createRoom.roomTitle" = "Room Title";
+"play.createRoom.roomSubTitle" = "A good title can bring more popularity";
+"play.createRoom.needPassword" = "Password required";
+"play.createRoom.startParty" = "Start Party";
+"play.createRoom.existTitle" = "The room type you selected already exists. Do you want to enter directly?";
+"play.createRoom.continue" = "Continue creating";
+"play.createRoom.straightInto" = "Direct entry";
+"play.createRoom.successful" = "Created successfully";
+"play.createRoom.enterPassword" = "Please enter the room password";
+"play.createRoom.enterRoomLoading" = "Entering the room, please wait...";
+"play.createRoom.kickOutTips" = "You are banned from entering this room, %1$@dismissed";
+
+//MARK: CreateRoom
+"play.chatRoom.chat" = "Chat";
+"play.chatRoom.roomAnnouncement" = "Room Announcement";
+"play.chatRoom.announcement" = "Announcement";
+"play.chatRoom.emptyAnnouncement" = "The host is lazy and left nothing behind";
+"play.chatRoom.announcementTips" = "Party Room Chat Legal Notices and Notices Text Party Room Chat Legal Notices and Notices Text Party Room Chat Legal Notices and Notices Text, Party Room Chat Legal Notices and Notices Text.";
+"play.chatRoom.onlineUsers" = "Online Users";
+"play.chatRoom.setting" = "Room Settings";
+"play.chatRoom.moreFunctions" = "More Functions";
+"play.chatRoom.roomInfo" = "Room Information";
+"play.chatRoom.lockRoom" = "Room Lock";
+"play.chatRoom.possessor" = "Everyone";
+"play.chatRoom.requiredPassword" = "Password required";
+"play.chatRoom.clearScreen" = "Clear public screen";
+"play.chatRoom.openChat" = "Open Chat";
+"play.chatRoom.closeChat" = "Close Chat";
+"play.chatRoom.open" = "Open";
+"play.chatRoom.close" = "Close";
+"play.chatRoom.closeChat" = "Close Chat";
+"play.chatRoom.openScreen" = "Chat has been opened, everyone can get high!";
+"play.chatRoom.closeScreen" = "This party has closed the chat function, and everyone is prohibited from typing to chat";
+"play.chatRoom.clearScreenTips" = "Clearing the public screen cannot be restored. Are you sure to clear it?";
+"play.chatRoom.clearScreenSuccess" = "The public screen has been cleared";
+"play.chatRoom.dissolveRoom" = "Dissolve Room";
+"play.chatRoom.dissolveRoomTips" = "Dissolving the room will clear out the room's occupants~";
+"play.chatRoom.dissolve" = "dissolve";
+"play.chatRoom.dissolveTips" = "The current room has been dismissed by the owner~";
+"play.chatRoom.minimization" = "Minimization";
+"play.chatRoom.exitRoom" = "Exit the room";
+"play.chatRoom.recycleRoomTips" = "The chat room was inactive for a long time and was automatically recycled by the system";
+"play.chatRoom.kickOut" = "Kick Out";
+"play.chatRoom.kickOutTime" = "Please select the kickout time";
+"play.chatRoom.kickOutTips" = "You have been kicked out of the room by %@";
+"play.chatRoom.kickOutTenMin" = "10 minutes";
+"play.chatRoom.kickOutOneHour" = "1 hour";
+"play.chatRoom.kickOutNow" = "Kick out directly";
+"play.chatRoom.selectOperation" = "Please select an operation";
+"play.chatRoom.micManager" = "Mic location management";
+"play.chatRoom.freeMic" = "Play.chatRoom.freeMic";
+"play.chatRoom.requestMic" = "Request for Mic";
+"play.chatRoom.currentMicMode" = "The current microphone mode is updated to:";
+"play.chatRoom.screenManager" = "Public screen management";
+"play.chatRoom.ownersPositionTip" = "This position is the owner's position";
+"play.chatRoom.requestMicMode" = "The current room has been set up to apply for microphone. Do you want to apply for microphone?";
+"play.chatRoom.unlockMic" = "Unlock microphone successfully";
+"play.chatRoom.onMicTip" = "You are not on the mic, please go on the mic first";
+"play.chatRoom.sentApply" = "The application to join the Wheat Room has been sent";
+"play.chatRoom.alreadyOnMicTip" = "You are already on MicTip";
+"play.chatRoom.banMicTip" = "You have been banned from the microphone";
+"play.chatRoom.banMic" = "BanMic";
+"play.chatRoom.openMic" = "play.chatRoom.openMic";
+"play.chatRoom.lockMic" = "LockMic";
+"play.chatRoom.onMic" = "play.chatRoom.onMic";
+"play.chatRoom.offMic" = "Listen on the mic";
+"play.chatRoom.viewData" = "View data";
+"play.chatRoom.banMicSuccess" = "Micro ban successful";
+"play.chatRoom.openMicSuccess" = "Open microphone successfully";
+"play.chatRoom.onMicSuccess" = "Watching the microphone successfully";
+"play.chatRoom.offMicSuccess" = "Playing the mic successfully";
+"play.chatRoom.lockMicSuccess" = "Lock Mic Successfully";
+"play.chatRoom.joinRoom" = "Enter the room";
+"play.chatRoom.reJoinRoom" = "Reenter the room";
+"play.chatRoom.joinFail" = "Failed to join the chat room";
+"play.chatRoom.onLeave" = "Exit the room";
+"play.chatRoom.send" = "Send";
+"play.chatRoom.speakOut" = "Restricted from speaking";
+"play.chatRoom.saySomething" = "Say something...";
+"play.chatRoom.emptySend" = "The input content cannot be empty";
+"play.chatRoom.setPassword" = "Set room password";
+"play.chatRoom.enterDigitCode" = "Please enter the 4-digit password";
+"play.chatRoom.roomTitle" = "Room Title";
+"play.chatRoom.roomIntroduce" = "Room Introduction";
+"play.chatRoom.welcomeRoom" = "Welcome to my room";
+"play.chatRoom.inviteParty" = "Invite to the party";
+"play.chatRoom.copyLink" = "The sharing link has been copied";
+"play.chatRoom.notice" = "Notification";
+"play.chatRoom.invite" = "Invite";
+"play.chatRoom.shareTo" = "Share to";
+"play.chatRoom.voiceChat" = "VoiceChat";
+"play.chatRoom.messageForFriend" = "Leave a message to a friend";
+"play.chatRoom.holdMic" = "holdMic";
+"play.chatRoom.enterUsersNicknameOrID" = "Please enter the user's nickname or ID";
+"play.chatRoom.holdTa" = "hold ta";
+"play.chatRoom.sendGiftToTa" = "Gift to %@";
+"play.chatRoom.message" = "Message";
+"play.chatRoom.microphoneFailed" = "Microphone Failed";
+"play.chatRoom.permissionInformation" = "Permission Information";
+"play.chatRoom.removeAdmin" = "Remove Admin";
+"play.chatRoom.addAdmin" = "Add Management";
+"play.chatRoom.administrator" = "Administrator";
+"play.chatRoom.removeAdminTips" = "Admin removed";
+"play.chatRoom.addAdminTips" = "Administration has been added";
+"play.chatRoom.removedAdminTips" = "Admin has been removed";
+"play.chatRoom.addedAsAdminTips" = "Has been added as an administrator";
+"play.chatRoom.owner" = "Owner";
+"play.chatRoom.roomOnlineUsers" = "Room Online Users";
+"play.chatRoom.noOnlineUsers" = "No online users ~";
+"play.chatRoom.moreInformation" = "More information";
+"play.chatRoom.medalWall" = "Medal Wall";
+"play.chatRoom.giftWall" = "Gift Wall";
+"play.chatRoom.follow" = "Follow";
+"play.chatRoom.giveGifts" = "Gifts";
+"play.chatRoom.directMessage" = "Private Chat";
+
+//MARK: Social
+
+"social.chat.unknownType" = "[Unknown Type]";
+"social.chat.text" = "[text]";
+"social.chat.voice" = "[voice]";
+"social.chat.hQVCMsg" = "[Voice]";
+"social.chat.imgMsg" = "[image]";
+"social.chat.gifMsg" = "[GIF picture message]";
+"social.chat.imgTextMsg" = "[Graphic and text message]";
+"social.chat.fileMsg" = "[file]";
+"social.chat.lbsMsg" = "[location]";
+"social.chat.sightMsg" = "[Video]";
+"social.chat.referenceMsg" = "[reference message]";
+"social.chat.combineMsg" = "[Combine and forward messages]";
+"social.chat.youWithdrewAMessage" = "You withdrew a message";
+"social.chat.otherWithdrewAMessage" = "The other party withdrew a message";
+"social.chat.otherWithdrewAMessage" = "The other party withdrew a message";
+"social.chat.delete" = "Delete";
+"social.chat.recall" = "Recall";
+"social.chat.playFaill" = "Playback failed";
+"social.chat.holdToSpeak" = "Hold to speak";
+"social.chat.releaseEnd" = "Release End";
+"social.chat.looseSend" = "Let go and send";
+"social.chat.cancelSending" = "Release your finger to cancel sending";
+"social.chat.talkingShort" = "Talking time is too short";
+
+//MARK: NEWS
+
+"news.title" = "News";
+"news.more" = "more";
+
+//MARK: Mine
+
+"mine.account" = "Account";
+"mine.wallet" = "wallet";
+"mine.assets" = "Assets";
+"mine.history" = "History";
+"mine.vault" = "Vault";
+"mine.quest" = "Pursuit";
+"mine.level" = "Level";
+"mine.extend" = "Extend";
+"mine.fans" = "fans";
+"mine.friends" = "Friends";
+"mine.accountAssets" = "Account Assets";
+"mine.receive" = "receive";
+"mine.send" = "Send";
+"mine.transfer" = "Transfer";
+"mine.swap" = "Swap";
+"mine.buy" = "Buy";
+"mine.setting.title" = "System Settings";
+"mine.setting.logOut" = "Log out";
+"mine.setting.accountInformation" = "Account Information";
+"mine.setting.languageSetting" = "Language Setting";
+"mine.setting.notification" = "Background message notification";
+"mine.setting.contactUs" = "Contact Us";
+"mine.setting.clearCache" = "Clear Cache";
+"mine.setting.version" = "version";
+"mine.setting.userAgreement" = "User Agreement";
+"mine.setting.updateAvatar" = "Modify avatar";
+"mine.setting.updateCertificateBack" = "Modify the certificate base";
+"mine.setting.nickName" = "Nickname";
+"mine.setting.gender" = "Gender";
+"mine.setting.birthday" = "birthday";
+"mine.setting.phone" = "Mobile phone number";
+"mine.setting.email" = "Mailbox";
+"mine.setting.twitter" = "Twitter";
+"mine.setting.facebook" = "Facebook";
+"mine.setting.updateNickName" = "Modify Nickname";
+"mine.setting.nickNamePlachold" = "Enter nickname";
+"mine.setting.nickNameTips" = "1-10 characters, supports Chinese, English, numbers and underscores";
+"mine.setting.settingGender" = "Set gender";
+"mine.setting.selectDate" = "Select Date";
+"mine.setting.language" = "Language";
+"mine.setting.notUserInfo" = "No user information obtained.";
+"mine.setting.gender.female" = "I am a girl.";
+"mine.setting.gender.male" = "I am a boy.";
+"mine.setting.pleaseSet" = "Please Set";
+"mine.setting.clearCacheTitle" = "whether to clear the cache";

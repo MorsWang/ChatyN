@@ -1,0 +1,292 @@
+/* 
+  Localizable.strings
+  ChatYN
+
+  Created by 马小撂 on 2023/10/5.
+  
+*/
+
+//MARK: Common
+
+"common.minutes" = "分";
+"common.seconds" = "秒";
+"common.cancel" = "取消";
+"common.confirm" = "确认";
+"common.save" = "保存";
+"common.thinkAgain" = "再想想";
+"common.clear" = "清除";
+"common.iknow" = "我知道了";
+"common.search" = "搜索";
+"common.updateSuccess" = "修改成功";
+"common.album" = "相册";
+"common.takeAPicture" = "拍照";
+"common.alert" = "提示";
+"common.update" = "更新";
+"common.tokenInvalid" = "Token 失效";
+"common.logoutSuccessfully" = "退出成功";
+
+//MARK: Error
+"error.invalidToken" = "token 失效，请重新登录";
+"error.DB_ERR" = "处理失败，请稍后再试";
+"error.KAFKA_ERR" = "消息中间件错误";
+"error.RPC_ERR" = "rpc 调用错误";
+"error.SYS_ERR" = "序列化/文件操作/调用第三方服务/获取不到系统配置等错误";
+"error.CACHE_ERR" = "cache失败";
+"error.REQ_ERR" = "通用请求失败";
+"error.ACCOUNT_BAN_ERR" = "账号被封禁";
+"error.ROOM_NO_EXISTE" = "房间不存在";
+"error.ROOM_TYPE_EXISTE" = "已存在相同类型的房间";
+"error.ROOM_DATA_EMPTY" = "rpc获取不到数据";
+"error.GEN_TOKEN_ERR" = "rtc平台生成token失败";
+"error.ROOM_HAD_CREATE" = "房间已经创建";
+"error.ROOM_MIC_BLOCK" = "该位置已被占用";
+"error.ROOM_MIC_LOCK" = "该位置已被锁定，锁定或者房主位";
+"error.ROOM_MIC_FORBIDDEN" = "当前没有上麦权限";
+"error.ROOM_CLOSE" = "当前房间已经关闭";
+"error.ROOM_MIC_USER_OFF" = "当前用户不在麦上";
+"error.ROOM_NO_PERMISSION" = "当前没有操作权限";
+"error.ROOM_PWD_ERR" = "进房密码错误";
+"error.ROOM_MIC_MOVE_ERR" = "当前不可移动麦位，房主";
+"error.ROOM_MIC_UNKNOWN_OP" = "未知的麦位操作";
+"error.ROOM_CREATOR_OP_ERR" = "不可以对房主进行操作";
+"error.ROOM_SET_ADMIN_ERR" = "已经是管理员";
+"error.ROOM_OP_USER_ERR" = "不可以对自己进行操作";
+"error.ROOM_READY_INVITE_MIC" = "已发出邀请";
+"error.ROOM_ADMIN_LIMIT" = "管理员已满";
+"error.ROOM_USER_ONLINE" = "获取在线人数失败";
+"error.ROOM_ENTER_CD" = "进房cd";
+"error.GIFT_NOT_FOUND" = "礼物不存在";
+"error.FOLLOW_FAIL" = "关注失败";
+"error.EXIST_FOLLOW" = "已经关注";
+"error.NOT_FOLLOW" = "未关注";
+"error.REPEAT_UNFOLLOW" = "重复取关";
+"error.UNFOLLOW_FAIL" = "取关失败";
+"error.ROOM_MIC_USER_READY_ON" = "当前用户已在麦上";
+"error.ROOM_MIC_APPLY_OFF" = "当前允许自由上麦，不需要申请";
+"error.ROOM_MIC_READY_HAVE_PERMISSION" = "已有上麦权限，不需要申请";
+"error.ROOM_FREEZE" = "房间冻结";
+
+//MARK: Tabbar
+
+"tabbar.home" = "首页";
+"tabbar.play" = "游戏";
+"tabbar.social" = "社交";
+"tabbar.news" = "资讯";
+"tabbar.mine" = "我的";
+
+//MARK: Login
+
+"login.continueByemail" = "通过邮箱继续";
+"login.continueByWallet" = "通过钱包登录";
+"login.agreeServiceAndPrivacyPolicy" = "我同意ChatyN的 %1$@ 和 %2$@";
+"login.termsOfService" = "服务条款";
+"login.privacyPolicy" = "隐私政策";
+"login.or" = "或";
+"login.wallet" = "钱包";
+
+//MARK: Play
+
+"play.title" = "游戏";
+"play.hot" = "推荐";
+"play.chat" = "聊天";
+"play.music" = "音乐";
+"play.love" = "喜欢";
+"play.game" = "游戏";
+"play.online" = "在线";
+
+//MARK: CreateRoom
+
+"play.createRoom.roomTitle" = "房间标题";
+"play.createRoom.roomSubTitle" = "好的标题能带来更多人气";
+"play.createRoom.needPassword" = "需要密码";
+"play.createRoom.startParty" = "开始派对";
+"play.createRoom.existTitle" = "您所选择的房间类型已存在，是否直接进入？";
+"play.createRoom.continue" = "继续创建";
+"play.createRoom.straightInto" = "直接进入";
+"play.createRoom.successful" = "创建成功";
+"play.createRoom.enterPassword" = "请输入房间密码";
+"play.createRoom.enterRoomLoading" = "正在进入房间，请稍后...";
+"play.createRoom.kickOutTips" = "你被禁止进入该房间，%1$@解除";
+
+//MARK: CreateRoom
+"play.chatRoom.chat" = "聊天";
+"play.chatRoom.roomAnnouncement" = "房间公告";
+"play.chatRoom.announcement" = "公告";
+"play.chatRoom.emptyAnnouncement" = "房主很懒，什么都没有留下";
+"play.chatRoom.announcementTips" = "派对房间聊天法律申明和注意事项文本派对房间聊天法律申明和注意事项文本派对房间聊天法律申明和注意事项文本，派对房间聊天法律申明和注意事巧文本。";
+"play.chatRoom.onlineUsers" = "在线用户";
+"play.chatRoom.setting" = "房间设置";
+"play.chatRoom.moreFunctions" = "更多功能";
+"play.chatRoom.roomInfo" = "房间信息";
+"play.chatRoom.lockRoom" = "房间加锁";
+"play.chatRoom.possessor" = "所有人";
+"play.chatRoom.requiredPassword" = "需要密码";
+"play.chatRoom.clearScreen" = "清除公屏";
+"play.chatRoom.openChat" = "开启聊天";
+"play.chatRoom.closeChat" = "关闭聊天";
+"play.chatRoom.open" = "开启";
+"play.chatRoom.close" = "关闭";
+"play.chatRoom.closeChat" = "关闭聊天";
+"play.chatRoom.openScreen" = "已打开聊天，大家可以high了！";
+"play.chatRoom.closeScreen" = "此派对已关闭聊天功能，所有人禁止打字聊天";
+"play.chatRoom.clearScreenTips" = "清除公屏不可恢复，确认清除？";
+"play.chatRoom.clearScreenSuccess" = "公屏已清除";
+"play.chatRoom.dissolveRoom" = "解散房间";
+"play.chatRoom.dissolveRoomTips" = "解散房间将清空房间人员哦~";
+"play.chatRoom.dissolve" = "解散";
+"play.chatRoom.dissolveTips" = "当前房间已被房主解散~";
+"play.chatRoom.minimization" = "最小化";
+"play.chatRoom.exitRoom" = "退出房间";
+"play.chatRoom.recycleRoomTips" = "聊天室长时间不活跃，被系统自动回收";
+"play.chatRoom.kickOut" = "踢出";
+"play.chatRoom.kickOutTime" = "请选择踢出时间";
+"play.chatRoom.kickOutTips" = "你已被%@踢出房间";
+"play.chatRoom.kickOutTenMin" = "10分钟";
+"play.chatRoom.kickOutOneHour" = "1小时";
+"play.chatRoom.kickOutNow" = "直接踢出";
+"play.chatRoom.selectOperation" = "请选择操作";
+"play.chatRoom.micManager" = "麦位管理";
+"play.chatRoom.freeMic" = "自由上麦";
+"play.chatRoom.requestMic" = "申请上麦";
+"play.chatRoom.currentMicMode" = "当前上麦模式更新为：";
+"play.chatRoom.screenManager" = "公屏管理";
+"play.chatRoom.ownersPositionTip" = "该位置是房主位";
+"play.chatRoom.requestMicMode" = "当前房间已设置申请上麦模式, 是否要申请上麦";
+"play.chatRoom.unlockMic" = "解锁麦成功";
+"play.chatRoom.onMicTip" = "您不在麦上，请先上麦";
+"play.chatRoom.sentApply" = "上麦申请已发送";
+"play.chatRoom.alreadyOnMicTip" = "您已经在麦上了";
+"play.chatRoom.banMicTip" = "您已被禁麦";
+"play.chatRoom.banMic" = "禁麦";
+"play.chatRoom.openMic" = "开麦";
+"play.chatRoom.lockMic" = "锁麦";
+"play.chatRoom.onMic" = "上麦";
+"play.chatRoom.offMic" = "下麦旁听";
+"play.chatRoom.viewData" = "查看资料";
+"play.chatRoom.banMicSuccess" = "禁麦成功";
+"play.chatRoom.openMicSuccess" = "开麦成功";
+"play.chatRoom.onMicSuccess" = "上麦成功";
+"play.chatRoom.offMicSuccess" = "下麦成功";
+"play.chatRoom.lockMicSuccess" = "锁麦成功";
+"play.chatRoom.joinRoom" = "进入房间";
+"play.chatRoom.reJoinRoom" = "重新进入房间";
+"play.chatRoom.joinFail" = "加入语聊房间失败";
+"play.chatRoom.onLeave" = "退出房间";
+"play.chatRoom.send" = "发送";
+"play.chatRoom.speakOut" = "被限制发言";
+"play.chatRoom.saySomething" = "说点什么...";
+"play.chatRoom.emptySend" = "输入内容不能为空";
+"play.chatRoom.setPassword" = "设置房间密码";
+"play.chatRoom.enterDigitCode" = "请输入4位数数字密码";
+"play.chatRoom.roomTitle" = "房间标题";
+"play.chatRoom.roomIntroduce" = "房间介绍";
+"play.chatRoom.welcomeRoom" = "欢迎来到我的房间";
+"play.chatRoom.inviteParty" = "邀请进派对";
+"play.chatRoom.copyLink" = "分享链接已复制";
+"play.chatRoom.notice" = "通知";
+"play.chatRoom.invite" = "邀请";
+"play.chatRoom.shareTo" = "分享给";
+"play.chatRoom.voiceChat" = "语聊";
+"play.chatRoom.messageForFriend" = "给朋友留言";
+"play.chatRoom.holdMic" = "抱麦";
+"play.chatRoom.enterUsersNicknameOrID" = "请输入用户的昵称或ID";
+"play.chatRoom.holdTa" = "抱 ta";
+"play.chatRoom.sendGiftToTa" = "送给 %@ 呀";
+"play.chatRoom.message" = "消息";
+"play.chatRoom.microphoneFailed" = "语聊上麦失败";
+"play.chatRoom.permissionInformation" = "权限信息";
+"play.chatRoom.removeAdmin" = "移除管理";
+"play.chatRoom.addAdmin" = "添加管理";
+"play.chatRoom.administrator" = "管理员";
+"play.chatRoom.removeAdminTips" = "已移除管理";
+"play.chatRoom.addAdminTips" = "已添加管理";
+"play.chatRoom.removedAdminTips" = "已被移除管理";
+"play.chatRoom.addedAsAdminTips" = "已被添加为管理";
+"play.chatRoom.owner" = "房主";
+"play.chatRoom.roomOnlineUsers" = "房间在线用户";
+"play.chatRoom.noOnlineUsers" = "没有在线用户 ~";
+"play.chatRoom.moreInformation" = "更多信息";
+"play.chatRoom.medalWall" = "勋章墙";
+"play.chatRoom.giftWall" = "礼物墙";
+"play.chatRoom.follow" = "关注";
+"play.chatRoom.giveGifts" = "送礼";
+"play.chatRoom.directMessage" = "私聊";
+
+//MARK: Social
+
+"social.chat.unknownType" = "[未知类型]";
+"social.chat.text" = "[文本]";
+"social.chat.voice" = "[语音]";
+"social.chat.hQVCMsg" = "[语音]";
+"social.chat.imgMsg" = "[图片]";
+"social.chat.gifMsg" = "[GIF 图片消息]";
+"social.chat.imgTextMsg" = "[图文消息]";
+"social.chat.fileMsg" = "[文件]";
+"social.chat.lbsMsg" = "[位置]";
+"social.chat.sightMsg" = "[视频]";
+"social.chat.referenceMsg" = "[引用消息]";
+"social.chat.combineMsg" = "[合并转发消息]";
+"social.chat.youWithdrewAMessage" = "你撤回了一条消息";
+"social.chat.otherWithdrewAMessage" = "对方撤回了一条消息";
+"social.chat.otherWithdrewAMessage" = "对方撤回了一条消息";
+"social.chat.delete" = "删除";
+"social.chat.recall" = "撤回";
+"social.chat.playFaill" = "播放失败";
+"social.chat.holdToSpeak" = "按住说话";
+"social.chat.releaseEnd" = "松开结束";
+"social.chat.looseSend" = "松手 发送";
+"social.chat.cancelSending" = "松开手指，取消发送";
+"social.chat.talkingShort" = "说话时间太短";
+
+//MARK: NEWS
+
+"news.title" = "资讯";
+"news.more" = "更多";
+
+//MARK: Mine
+
+"mine.account" = "账户";
+"mine.wallet" = "钱包";
+"mine.assets" = "资产";
+"mine.history" = "历史";
+"mine.vault" = "库";
+"mine.quest" = "追求";
+"mine.level" = "等级";
+"mine.extend" = "扩展";
+"mine.fans" = "粉丝";
+"mine.friends" = "好友";
+"mine.accountAssets" = "账户资产";
+"mine.receive" = "接收";
+"mine.send" = "发送";
+"mine.transfer" = "划转";
+"mine.swap" = "闪兑";
+"mine.buy" = "购买";
+"mine.setting.title" = "系统设置";
+"mine.setting.logOut" = "退出登录";
+"mine.setting.accountInformation" = "账户信息";
+"mine.setting.languageSetting" = "语言设置";
+"mine.setting.notification" = "后台消息通知";
+"mine.setting.contactUs" = "联系我们";
+"mine.setting.clearCache" = "清理缓存";
+"mine.setting.version" = "版本";
+"mine.setting.userAgreement" = "用户协议";
+"mine.setting.updateAvatar" = "修改头像";
+"mine.setting.updateCertificateBack" = "修改证件底板";
+"mine.setting.nickName" = "昵称";
+"mine.setting.gender" = "性别";
+"mine.setting.birthday" = "生日";
+"mine.setting.phone" = "手机号";
+"mine.setting.email" = "邮箱";
+"mine.setting.twitter" = "推特";
+"mine.setting.facebook" = "Facebook";
+"mine.setting.updateNickName" = "修改昵称";
+"mine.setting.nickNamePlachold" = "输入昵称";
+"mine.setting.nickNameTips" = "1-10个字符，支持中文，英文，数字和下划线";
+"mine.setting.settingGender" = "设置性别";
+"mine.setting.selectDate" = "选择日期";
+"mine.setting.language" = "语言";
+"mine.setting.notUserInfo" = "没有获取到用户信息";
+"mine.setting.gender.female" = "我是女生";
+"mine.setting.gender.male" = "我是男生";
+"mine.setting.pleaseSet" = "请设置";
+"mine.setting.clearCacheTitle" = "是否要清除缓存";
