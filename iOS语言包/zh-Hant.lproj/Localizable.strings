@@ -219,13 +219,13 @@
 "social.chat.voice" = "[語音]";
 "social.chat.hQVCMsg" = "[語音]";
 "social.chat.imgMsg" = "[圖片]";
-"social.chat.gifMsg" = "[GIF 圖片消息]";
-"social.chat.imgTextMsg" = "[圖文消息]";
+"social.chat.gifMsg" = "[GIF 圖片訊息]";
+"social.chat.imgTextMsg" = "[圖文訊息]";
 "social.chat.fileMsg" = "[文件]";
 "social.chat.lbsMsg" = "[位置]";
 "social.chat.sightMsg" = "[視頻]";
-"social.chat.referenceMsg" = "[引用消息]";
-"social.chat.combineMsg" = "[合並轉發消息]";
+"social.chat.referenceMsg" = "[引用訊息]";
+"social.chat.combineMsg" = "[合並轉發訊息]";
 "social.chat.youWithdrewAMessage" = "你已收回訊息";
 "social.chat.otherWithdrewAMessage" = "對方已收回訊息";
 "social.chat.otherWithdrewAMessage" = "對方已收回訊息";
