@@ -261,10 +261,10 @@
 "mine.transfer" = "劃轉";
 "mine.swap" = "閃兌";
 "mine.buy" = "購買";
-"mine.setting.title" = "系統設置";
+"mine.setting.title" = "系統設定";
 "mine.setting.logOut" = "退出登錄";
 "mine.setting.accountInformation" = "帳戶信息";
-"mine.setting.languageSetting" = "語言設置";
+"mine.setting.languageSetting" = "語言設定";
 "mine.setting.notification" = "後臺消息通知";
 "mine.setting.contactUs" = "聯系我們";
 "mine.setting.clearCache" = "清理緩存";
@@ -282,11 +282,11 @@
 "mine.setting.updateNickName" = "修改暱稱";
 "mine.setting.nickNamePlachold" = "輸入暱稱";
 "mine.setting.nickNameTips" = "1-10個字符，支持中文，英文，數字和下劃線";
-"mine.setting.settingGender" = "性別設置";
+"mine.setting.settingGender" = "性別設定";
 "mine.setting.selectDate" = "選擇日期";
 "mine.setting.language" = "語言";
 "mine.setting.notUserInfo" = "沒有獲取到用戶信息";
 "mine.setting.gender.female" = "我是女生";
 "mine.setting.gender.male" = "我是男生";
-"mine.setting.pleaseSet" = "請設置";
+"mine.setting.pleaseSet" = "請設定";
 "mine.setting.clearCacheTitle" = "是否要清除緩存";
