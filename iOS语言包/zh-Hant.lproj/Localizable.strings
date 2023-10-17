@@ -192,7 +192,7 @@
 "play.chatRoom.enterUsersNicknameOrID" = "請輸入用戶的暱稱或ID";
 "play.chatRoom.holdTa" = "抱 ta";
 "play.chatRoom.sendGiftToTa" = "送給 %@ 呀";
-"play.chatRoom.message" = "消息";
+"play.chatRoom.message" = "訊息";
 "play.chatRoom.microphoneFailed" = "語聊上麥失敗";
 "play.chatRoom.permissionInformation" = "權限訊息";
 "play.chatRoom.removeAdmin" = "移除管理";
@@ -215,17 +215,17 @@
 //MARK: Social
 
 "social.chat.unknownType" = "[未知類型]";
-"social.chat.text" = "[文本]";
+"social.chat.text" = "[文字]";
 "social.chat.voice" = "[語音]";
 "social.chat.hQVCMsg" = "[語音]";
 "social.chat.imgMsg" = "[圖片]";
 "social.chat.gifMsg" = "[GIF 圖片訊息]";
 "social.chat.imgTextMsg" = "[圖文訊息]";
-"social.chat.fileMsg" = "[文件]";
+"social.chat.fileMsg" = "[檔案]";
 "social.chat.lbsMsg" = "[位置]";
-"social.chat.sightMsg" = "[視頻]";
+"social.chat.sightMsg" = "[影片]";
 "social.chat.referenceMsg" = "[引用訊息]";
-"social.chat.combineMsg" = "[合並轉發訊息]";
+"social.chat.combineMsg" = "[合併轉發訊息]";
 "social.chat.youWithdrewAMessage" = "你已收回訊息";
 "social.chat.otherWithdrewAMessage" = "對方已收回訊息";
 "social.chat.otherWithdrewAMessage" = "對方已收回訊息";
@@ -233,7 +233,7 @@
 "social.chat.recall" = "收回";
 "social.chat.playFaill" = "播放失敗";
 "social.chat.holdToSpeak" = "按住說話";
-"social.chat.releaseEnd" = "鬆開結束";
+"social.chat.releaseEnd" = "放開結束";
 "social.chat.looseSend" = "鬆手發送";
 "social.chat.cancelSending" = "鬆開手指，取消發送";
 "social.chat.talkingShort" = "說話時間太短";
@@ -259,7 +259,7 @@
 "mine.receive" = "接收";
 "mine.send" = "發送";
 "mine.transfer" = "劃轉";
-"mine.swap" = "閃兌";
+"mine.swap" = "兌換";
 "mine.buy" = "購買";
 "mine.setting.title" = "系統設定";
 "mine.setting.logOut" = "退出登錄";
@@ -276,12 +276,12 @@
 "mine.setting.gender" = "性別";
 "mine.setting.birthday" = "生日";
 "mine.setting.phone" = "手機號碼";
-"mine.setting.email" = "郵箱";
+"mine.setting.email" = "電子信箱";
 "mine.setting.twitter" = "推特";
 "mine.setting.facebook" = "Facebook";
 "mine.setting.updateNickName" = "修改暱稱";
 "mine.setting.nickNamePlachold" = "輸入暱稱";
-"mine.setting.nickNameTips" = "1-10個字符，支持中文，英文，數字和下劃線";
+"mine.setting.nickNameTips" = "1-10個字符，支持中文，英文，數字和下底線";
 "mine.setting.settingGender" = "性別設定";
 "mine.setting.selectDate" = "選擇日期";
 "mine.setting.language" = "語言";
