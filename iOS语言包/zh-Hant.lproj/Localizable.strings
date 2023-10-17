@@ -56,11 +56,11 @@
 "error.ROOM_USER_ONLINE" = "獲取在線人數失敗";
 "error.ROOM_ENTER_CD" = "進房cd";
 "error.GIFT_NOT_FOUND" = "禮物不存在";
-"error.FOLLOW_FAIL" = "關註失敗";
-"error.EXIST_FOLLOW" = "已經關註";
-"error.NOT_FOLLOW" = "未關註";
-"error.REPEAT_UNFOLLOW" = "重復取消關注";
-"error.UNFOLLOW_FAIL" = "取消關注失敗";
+"error.FOLLOW_FAIL" = "追蹤失敗";
+"error.EXIST_FOLLOW" = "已經追蹤";
+"error.NOT_FOLLOW" = "未追蹤";
+"error.REPEAT_UNFOLLOW" = "重復取消追蹤";
+"error.UNFOLLOW_FAIL" = "取消追蹤失敗";
 "error.ROOM_MIC_USER_READY_ON" = "當前用戶已在麥上";
 "error.ROOM_MIC_APPLY_OFF" = "當前允許自由上麥，不需要申請";
 "error.ROOM_MIC_READY_HAVE_PERMISSION" = "已有上麥權限，不需要申請";
