@@ -16,14 +16,14 @@
 "common.thinkAgain" = "再想一下";
 "common.clear" = "清除";
 "common.iknow" = "我知道了";
-"common.search" = "搜索";
+"common.search" = "搜尋";
 "common.updateSuccess" = "修改成功";
 "common.album" = "相簿";
 "common.takeAPicture" = "拍照";
 "common.alert" = "提示";
 "common.update" = "更新";
 "common.tokenInvalid" = "Token 失效";
-"common.logoutSuccessfully" = "登出成功";
+"common.logoutSuccessfully" = "登出完成";
 
 //MARK: Error
 "error.invalidToken" = "token 失效，請重新登錄";
@@ -33,27 +33,27 @@
 "error.SYS_ERR" = "序列化/文件操作/調用第三方服務/獲取不到系統配置等錯誤";
 "error.CACHE_ERR" = "快取失敗";
 "error.REQ_ERR" = "通用請求失敗";
-"error.ACCOUNT_BAN_ERR" = "帳號被封禁";
-"error.ROOM_NO_EXISTE" = "房間不存在";
-"error.ROOM_TYPE_EXISTE" = "已存在相同類型的房間";
+"error.ACCOUNT_BAN_ERR" = "帳號被禁用";
+"error.ROOM_NO_EXISTE" = "無此房間";
+"error.ROOM_TYPE_EXISTE" = "已有相同類型的房間";
 "error.ROOM_DATA_EMPTY" = "rpc獲取不到數據";
 "error.GEN_TOKEN_ERR" = "rtc平臺生成token失敗";
-"error.ROOM_HAD_CREATE" = "房間已經創建";
+"error.ROOM_HAD_CREATE" = "房間已經建立";
 "error.ROOM_MIC_BLOCK" = "該位置已被占用";
-"error.ROOM_MIC_LOCK" = "該位置已被鎖定，鎖定或者房主位";
-"error.ROOM_MIC_FORBIDDEN" = "當前沒有上麥權限";
-"error.ROOM_CLOSE" = "當前房間已經關閉";
-"error.ROOM_MIC_USER_OFF" = "當前用戶不在麥上";
-"error.ROOM_NO_PERMISSION" = "當前沒有操作權限";
+"error.ROOM_MIC_LOCK" = "該位置已被鎖定，或為房主位";
+"error.ROOM_MIC_FORBIDDEN" = "目前沒有上麥權限";
+"error.ROOM_CLOSE" = "目前房間已經關閉";
+"error.ROOM_MIC_USER_OFF" = "目前用戶不在麥上";
+"error.ROOM_NO_PERMISSION" = "目前沒有操作權限";
 "error.ROOM_PWD_ERR" = "進房密碼錯誤";
-"error.ROOM_MIC_MOVE_ERR" = "當前不可移動麥位，房主";
+"error.ROOM_MIC_MOVE_ERR" = "目前不可移動麥位，房主";
 "error.ROOM_MIC_UNKNOWN_OP" = "未知的麥位操作";
 "error.ROOM_CREATOR_OP_ERR" = "不可以對房主進行操作";
 "error.ROOM_SET_ADMIN_ERR" = "已經是管理員";
 "error.ROOM_OP_USER_ERR" = "不可以對自己進行操作";
 "error.ROOM_READY_INVITE_MIC" = "已發出邀請";
 "error.ROOM_ADMIN_LIMIT" = "管理員已滿";
-"error.ROOM_USER_ONLINE" = "獲取在線人數失敗";
+"error.ROOM_USER_ONLINE" = "獲取線上人數失敗";
 "error.ROOM_ENTER_CD" = "進房cd";
 "error.GIFT_NOT_FOUND" = "禮物不存在";
 "error.FOLLOW_FAIL" = "追蹤失敗";
@@ -61,8 +61,8 @@
 "error.NOT_FOLLOW" = "未追蹤";
 "error.REPEAT_UNFOLLOW" = "重復取消追蹤";
 "error.UNFOLLOW_FAIL" = "取消追蹤失敗";
-"error.ROOM_MIC_USER_READY_ON" = "當前用戶已在麥上";
-"error.ROOM_MIC_APPLY_OFF" = "當前允許自由上麥，不需要申請";
+"error.ROOM_MIC_USER_READY_ON" = "目前用戶已在麥上";
+"error.ROOM_MIC_APPLY_OFF" = "目前允許自由上麥，不需要申請";
 "error.ROOM_MIC_READY_HAVE_PERMISSION" = "已有上麥權限，不需要申請";
 "error.ROOM_FREEZE" = "房間凍結";
 
@@ -92,7 +92,7 @@
 "play.music" = "音樂";
 "play.love" = "喜歡";
 "play.game" = "遊戲";
-"play.online" = "在線";
+"play.online" = "線上";
 
 //MARK: CreateRoom
 
@@ -101,9 +101,9 @@
 "play.createRoom.needPassword" = "需要密碼";
 "play.createRoom.startParty" = "開始派對";
 "play.createRoom.existTitle" = "您所選擇的房間類型已存在，是否直接進入？";
-"play.createRoom.continue" = "繼續創建";
+"play.createRoom.continue" = "繼續建立";
 "play.createRoom.straightInto" = "直接進入";
-"play.createRoom.successful" = "創建成功";
+"play.createRoom.successful" = "建立成功";
 "play.createRoom.enterPassword" = "請輸入房間密碼";
 "play.createRoom.enterRoomLoading" = "正在進入房間，請稍後...";
 "play.createRoom.kickOutTips" = "你被禁止進入該房間，%1$@解除";
@@ -114,7 +114,7 @@
 "play.chatRoom.announcement" = "公告";
 "play.chatRoom.emptyAnnouncement" = "房主很懶，什麽都沒有留下";
 "play.chatRoom.announcementTips" = "派對房間聊天法律申明和註意事項文本派對房間聊天法律申明和註意事項文本派對房間聊天法律申明和註意事項文本，派對房間聊天法律申明和註意事巧文本。";
-"play.chatRoom.onlineUsers" = "在線用戶";
+"play.chatRoom.onlineUsers" = "線上用戶";
 "play.chatRoom.setting" = "房間設置";
 "play.chatRoom.moreFunctions" = "更多功能";
 "play.chatRoom.roomInfo" = "房間信息";
@@ -134,7 +134,7 @@
 "play.chatRoom.dissolveRoom" = "解散房間";
 "play.chatRoom.dissolveRoomTips" = "解散房間將清空房間人員哦~";
 "play.chatRoom.dissolve" = "解散";
-"play.chatRoom.dissolveTips" = "當前房間已被房主解散~";
+"play.chatRoom.dissolveTips" = "目前房間已被房主解散~";
 "play.chatRoom.minimization" = "最小化";
 "play.chatRoom.exitRoom" = "退出房間";
 "play.chatRoom.recycleRoomTips" = "聊天室長時間不活躍，被系統自動回收";
@@ -148,10 +148,10 @@
 "play.chatRoom.micManager" = "麥位管理";
 "play.chatRoom.freeMic" = "自由上麥";
 "play.chatRoom.requestMic" = "申請上麥";
-"play.chatRoom.currentMicMode" = "當前上麥模式更新為：";
+"play.chatRoom.currentMicMode" = "目前上麥模式更新為：";
 "play.chatRoom.screenManager" = "公屏管理";
 "play.chatRoom.ownersPositionTip" = "該位置是房主位";
-"play.chatRoom.requestMicMode" = "當前房間已設置申請上麥模式, 是否要申請上麥";
+"play.chatRoom.requestMicMode" = "目前房間已設置申請上麥模式, 是否要申請上麥";
 "play.chatRoom.unlockMic" = "解鎖麥成功";
 "play.chatRoom.onMicTip" = "您不在麥上，請先上麥";
 "play.chatRoom.sentApply" = "上麥申請已發送";
@@ -203,8 +203,8 @@
 "play.chatRoom.removedAdminTips" = "已被移除管理";
 "play.chatRoom.addedAsAdminTips" = "已被添加為管理";
 "play.chatRoom.owner" = "房主";
-"play.chatRoom.roomOnlineUsers" = "房間在線用戶";
-"play.chatRoom.noOnlineUsers" = "沒有在線用戶 ~";
+"play.chatRoom.roomOnlineUsers" = "房間線上用戶";
+"play.chatRoom.noOnlineUsers" = "沒有線上用戶 ~";
 "play.chatRoom.moreInformation" = "更多信息";
 "play.chatRoom.medalWall" = "勳章牆";
 "play.chatRoom.giftWall" = "禮物牆";
