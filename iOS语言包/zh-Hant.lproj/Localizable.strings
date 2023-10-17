@@ -44,9 +44,9 @@
 "error.ROOM_MIC_FORBIDDEN" = "目前沒有上麥權限";
 "error.ROOM_CLOSE" = "目前房間已經關閉";
 "error.ROOM_MIC_USER_OFF" = "目前用戶不在麥上";
-"error.ROOM_NO_PERMISSION" = "目前沒有操作權限";
+"error.ROOM_NO_PERMISSION" = "沒有操作權限";
 "error.ROOM_PWD_ERR" = "房間密碼錯誤";
-"error.ROOM_MIC_MOVE_ERR" = "目前不可移動麥位，房主";
+"error.ROOM_MIC_MOVE_ERR" = "不可移動麥位";
 "error.ROOM_MIC_UNKNOWN_OP" = "未知的麥位操作";
 "error.ROOM_CREATOR_OP_ERR" = "無法對房主進行操作";
 "error.ROOM_SET_ADMIN_ERR" = "已經是管理員";
@@ -249,8 +249,8 @@
 "mine.wallet" = "錢包";
 "mine.assets" = "資產";
 "mine.history" = "歷史";
-"mine.vault" = "庫";
-"mine.quest" = "追求";
+"mine.vault" = "收藏";
+"mine.quest" = "任務";
 "mine.level" = "等級";
 "mine.extend" = "擴展";
 "mine.fans" = "粉絲";
