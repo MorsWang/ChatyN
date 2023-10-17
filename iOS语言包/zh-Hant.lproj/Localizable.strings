@@ -153,9 +153,9 @@
 "play.chatRoom.ownersPositionTip" = "該位置是房主位";
 "play.chatRoom.requestMicMode" = "目前房間已設置申請上麥模式, 是否要申請上麥";
 "play.chatRoom.unlockMic" = "解鎖麥成功";
-"play.chatRoom.onMicTip" = "您不在麥上，請先上麥";
+"play.chatRoom.onMicTip" = "請先上麥";
 "play.chatRoom.sentApply" = "上麥申請已發送";
-"play.chatRoom.alreadyOnMicTip" = "您已經在麥上了";
+"play.chatRoom.alreadyOnMicTip" = "已上麥了";
 "play.chatRoom.banMicTip" = "您已被禁麥";
 "play.chatRoom.banMic" = "禁麥";
 "play.chatRoom.openMic" = "開麥";
@@ -170,10 +170,10 @@
 "play.chatRoom.lockMicSuccess" = "鎖麥成功";
 "play.chatRoom.joinRoom" = "進入房間";
 "play.chatRoom.reJoinRoom" = "重新進入房間";
-"play.chatRoom.joinFail" = "加入語聊房間失敗";
+"play.chatRoom.joinFail" = "加入房間失敗";
 "play.chatRoom.onLeave" = "退出房間";
 "play.chatRoom.send" = "發送";
-"play.chatRoom.speakOut" = "被限製發言";
+"play.chatRoom.speakOut" = "已被限制發言";
 "play.chatRoom.saySomething" = "說點什麽...";
 "play.chatRoom.emptySend" = "輸入內容不能為空";
 "play.chatRoom.setPassword" = "設置房間密碼";
@@ -182,7 +182,7 @@
 "play.chatRoom.roomIntroduce" = "房間介紹";
 "play.chatRoom.welcomeRoom" = "歡迎來到我的房間";
 "play.chatRoom.inviteParty" = "邀請進派對";
-"play.chatRoom.copyLink" = "分享鏈接已復製";
+"play.chatRoom.copyLink" = "分享鏈接已複製";
 "play.chatRoom.notice" = "通知";
 "play.chatRoom.invite" = "邀請";
 "play.chatRoom.shareTo" = "分享給";
@@ -194,7 +194,7 @@
 "play.chatRoom.sendGiftToTa" = "送給 %@ 呀";
 "play.chatRoom.message" = "消息";
 "play.chatRoom.microphoneFailed" = "語聊上麥失敗";
-"play.chatRoom.permissionInformation" = "權限信息";
+"play.chatRoom.permissionInformation" = "權限訊息";
 "play.chatRoom.removeAdmin" = "移除管理";
 "play.chatRoom.addAdmin" = "添加管理";
 "play.chatRoom.administrator" = "管理員";
@@ -204,13 +204,13 @@
 "play.chatRoom.addedAsAdminTips" = "已被添加為管理";
 "play.chatRoom.owner" = "房主";
 "play.chatRoom.roomOnlineUsers" = "房間線上用戶";
-"play.chatRoom.noOnlineUsers" = "沒有線上用戶 ~";
-"play.chatRoom.moreInformation" = "更多信息";
+"play.chatRoom.noOnlineUsers" = "沒有線上用戶";
+"play.chatRoom.moreInformation" = "更多訊息";
 "play.chatRoom.medalWall" = "勳章牆";
 "play.chatRoom.giftWall" = "禮物牆";
-"play.chatRoom.follow" = "關注";
+"play.chatRoom.follow" = "追蹤";
 "play.chatRoom.giveGifts" = "送禮";
-"play.chatRoom.directMessage" = "私聊";
+"play.chatRoom.directMessage" = "私訊";
 
 //MARK: Social
 
