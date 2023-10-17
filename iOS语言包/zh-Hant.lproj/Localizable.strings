@@ -61,7 +61,7 @@
 "error.NOT_FOLLOW" = "未追蹤";
 "error.REPEAT_UNFOLLOW" = "重復取消追蹤";
 "error.UNFOLLOW_FAIL" = "取消追蹤失敗";
-"error.ROOM_MIC_USER_READY_ON" = "目前用戶已在麥上";
+"error.ROOM_MIC_USER_READY_ON" = "目前用戶已上麥";
 "error.ROOM_MIC_APPLY_OFF" = "目前允許自由上麥，不需要申請";
 "error.ROOM_MIC_READY_HAVE_PERMISSION" = "已有上麥權限，不需要申請";
 "error.ROOM_FREEZE" = "房間凍結";
@@ -71,13 +71,13 @@
 "tabbar.home" = "首頁";
 "tabbar.play" = "遊戲";
 "tabbar.social" = "社交";
-"tabbar.news" = "資訊";
+"tabbar.news" = "新聞";
 "tabbar.mine" = "我的";
 
 //MARK: Login
 
-"login.continueByemail" = "通過郵箱繼續";
-"login.continueByWallet" = "通過錢包登錄";
+"login.continueByemail" = "使用電子信箱登入";
+"login.continueByWallet" = "使用錢包登入";
 "login.agreeServiceAndPrivacyPolicy" = "我同意ChatyN的 %1$@ 和 %2$@";
 "login.termsOfService" = "服務條款";
 "login.privacyPolicy" = "隱私政策";
@@ -87,10 +87,10 @@
 //MARK: Play
 
 "play.title" = "遊戲";
-"play.hot" = "推薦";
+"play.hot" = "熱門";
 "play.chat" = "聊天";
 "play.music" = "音樂";
-"play.love" = "喜歡";
+"play.love" = "最愛";
 "play.game" = "遊戲";
 "play.online" = "線上";
 
@@ -98,12 +98,12 @@
 
 "play.createRoom.roomTitle" = "房間標題";
 "play.createRoom.roomSubTitle" = "好的標題能帶來更多人氣";
-"play.createRoom.needPassword" = "需要密碼";
+"play.createRoom.needPassword" = "設定密碼";
 "play.createRoom.startParty" = "開始派對";
-"play.createRoom.existTitle" = "您所選擇的房間類型已存在，是否直接進入？";
-"play.createRoom.continue" = "繼續建立";
+"play.createRoom.existTitle" = "選擇的房間類型已存在，是否直接進入？";
+"play.createRoom.continue" = "繼續";
 "play.createRoom.straightInto" = "直接進入";
-"play.createRoom.successful" = "建立成功";
+"play.createRoom.successful" = "房間建立成功";
 "play.createRoom.enterPassword" = "請輸入房間密碼";
 "play.createRoom.enterRoomLoading" = "正在進入房間，請稍後...";
 "play.createRoom.kickOutTips" = "你被禁止進入該房間，%1$@解除";
@@ -113,24 +113,24 @@
 "play.chatRoom.roomAnnouncement" = "房間公告";
 "play.chatRoom.announcement" = "公告";
 "play.chatRoom.emptyAnnouncement" = "房主很懶，什麽都沒有留下";
-"play.chatRoom.announcementTips" = "派對房間聊天法律申明和註意事項文本派對房間聊天法律申明和註意事項文本派對房間聊天法律申明和註意事項文本，派對房間聊天法律申明和註意事巧文本。";
+"play.chatRoom.announcementTips" = "聊天室法律申明和注意事項文本。";
 "play.chatRoom.onlineUsers" = "線上用戶";
-"play.chatRoom.setting" = "房間設置";
+"play.chatRoom.setting" = "房間設定";
 "play.chatRoom.moreFunctions" = "更多功能";
-"play.chatRoom.roomInfo" = "房間信息";
-"play.chatRoom.lockRoom" = "房間加鎖";
+"play.chatRoom.roomInfo" = "房間資訊";
+"play.chatRoom.lockRoom" = "房間上鎖";
 "play.chatRoom.possessor" = "所有人";
 "play.chatRoom.requiredPassword" = "需要密碼";
-"play.chatRoom.clearScreen" = "清除公屏";
+"play.chatRoom.clearScreen" = "清除公開聊天紀錄";
 "play.chatRoom.openChat" = "開啟聊天";
 "play.chatRoom.closeChat" = "關閉聊天";
 "play.chatRoom.open" = "開啟";
 "play.chatRoom.close" = "關閉";
 "play.chatRoom.closeChat" = "關閉聊天";
-"play.chatRoom.openScreen" = "已打開聊天，大家可以high了！";
+"play.chatRoom.openScreen" = "已打開聊天，大家high起來！";
 "play.chatRoom.closeScreen" = "此派對已關閉聊天功能，所有人禁止打字聊天";
-"play.chatRoom.clearScreenTips" = "清除公屏不可恢復，確認清除？";
-"play.chatRoom.clearScreenSuccess" = "公屏已清除";
+"play.chatRoom.clearScreenTips" = "清除公開聊天紀錄不可恢復，確認清除？";
+"play.chatRoom.clearScreenSuccess" = "公開聊天紀錄已清除";
 "play.chatRoom.dissolveRoom" = "解散房間";
 "play.chatRoom.dissolveRoomTips" = "解散房間將清空房間人員哦~";
 "play.chatRoom.dissolve" = "解散";
@@ -149,7 +149,7 @@
 "play.chatRoom.freeMic" = "自由上麥";
 "play.chatRoom.requestMic" = "申請上麥";
 "play.chatRoom.currentMicMode" = "目前上麥模式更新為：";
-"play.chatRoom.screenManager" = "公屏管理";
+"play.chatRoom.screenManager" = "公開聊天紀錄管理";
 "play.chatRoom.ownersPositionTip" = "該位置是房主位";
 "play.chatRoom.requestMicMode" = "目前房間已設置申請上麥模式, 是否要申請上麥";
 "play.chatRoom.unlockMic" = "解鎖麥成功";
